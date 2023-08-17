@@ -1,0 +1,15 @@
+{
+    'name' : 'Art Gallary',
+    'application' : True,
+    'depends' : ['base',],
+    'data':[
+            'security/ir.model.access.csv',
+            'view/art_gallary_artist_view.xml',
+            'view/art_gallary_artworks_view.xml',
+            'view/art_gallary_user_view.xml',
+            'view/art_gallary_interaction_view.xml',
+            'view/art_gallary_menus.xml',
+            
+    ]
+
+}

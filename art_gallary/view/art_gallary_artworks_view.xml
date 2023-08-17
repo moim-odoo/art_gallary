@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+      
+    <data>
+
+        <record id="view_art_gallary_artwork_list" model="ir.ui.view">
+            <field name="name">artwork.tree</field>
+            <field name="model">artgallary.artwork</field>
+            <field name="arch" type="xml">
+                <tree >
+                    <field name="name"/>
+                    <field name="artist_id"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="view_art_gallary_artwork_form" model="ir.ui.view">
+            <field name="name">artwork.form</field>
+            <field name="model">artgallary.artwork</field>
+            <field name="arch" type="xml">
+                <form >
+                    <group >
+                        <field name="name"/>
+                        <field name="artist_id"/>
+                        <field name="description"/>
+                    </group>
+
+                    <group>
+                        <field name="image" widget="image" class="oe_avatar"/>
+                    </group>
+                    
+                </form>
+            </field>
+        </record>
+
+
+        <record id="art_galary_artwork_action" model="ir.actions.act_window">
+            <field name="name">Art Works</field>
+            <field name="res_model">artgallary.artwork</field>
+            <field name="view_mode">tree,form</field>
+           
+        </record>
+    
+    </data>
+    
+
+</odoo>

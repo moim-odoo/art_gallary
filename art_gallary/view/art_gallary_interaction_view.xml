@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        
+        <record id="view_art_gallary_interaction_list" model="ir.ui.view">
+            <field name="name">interaction.tree</field>
+            <field name="model">artgallary.interaction</field>
+            <field name="arch" type="xml">
+                <tree >
+                    <field name="user_id"/>
+                    <field name="artwork_id">  
+                    </field>
+                    <field name="comment"/>
+                    <field name="rating"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="art_galary_interaction_action" model="ir.actions.act_window">
+            <field name="name">Interactions</field>
+            <field name="res_model">artgallary.interaction</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+    
+    </data>
+    
+
+</odoo>
