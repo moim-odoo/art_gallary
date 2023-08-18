@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="art_gallary_root" name="Art Gallary">
+        <menuitem id="artist_menu" name="Artist">
+            <menuitem id="art_gallary_artist_menu" action="art_galary_artist_action"/>
+        </menuitem>
+
+        <menuitem id='artwork_menu' name='ArtWorks'>
+            <menuitem id="art_gallary_artwork_menu" action="art_galary_artwork_action"/>
+        </menuitem>
+        
+        <menuitem id='user_menu' name='Users'>
+            <menuitem id="art_gallary_user_menu" action="art_gallary_user_action"/>
+        </menuitem>
+
+        <menuitem id='interaction_menu' name='Interactions'>
+            <menuitem id="art_gallary_interaction_menu" action="art_galary_interaction_action"/>
+        </menuitem>
+
+    </menuitem>
+
+</odoo>

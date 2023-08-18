@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+art_gallary.access_artgallary_artist,access_artgallary_artist,art_gallary.model_artgallary_artist,base.group_user,1,1,1,1
+art_gallary.access_artgallary_artwork,access_artgallary_artwork,art_gallary.model_artgallary_artwork,base.group_user,1,1,1,1
+art_gallary.access_artgallary_user,access_artgallary_user,art_gallary.model_artgallary_user,base.group_user,1,1,1,1
+art_gallary.access_artgallary_interaction,access_artgallary_interaction,art_gallary.model_artgallary_interaction,base.group_user,1,1,1,1
+
