@@ -19,4 +19,4 @@ class artist(models.Model):
                 total_art=record.mapped("artwork_ids.price")
                 for val in total_art:
                     record.artwork_ids.artist_id.total_welth = record.artwork_ids.artist_id.total_welth + val
-            print(record.total_welth)        
+            # print(record.total_welth)        

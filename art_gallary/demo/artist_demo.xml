@@ -1,0 +1,22 @@
+<odoo>
+    <data noupdate="0">
+        <record id="artist1" model="artgallary.artist">
+            <field name="name">Chaman</field>
+            <field name="date_of_birth">1994-02-22</field>
+            <field name="specility">Wooden</field>
+        </record>
+
+        <record id="artist2" model="artgallary.artist">
+            <field name="name">dragy</field>
+            <field name="date_of_birth">1997-12-27</field>
+            <field name="specility">Peper Art</field>
+        </record>
+
+
+        <record id="artist3" model="artgallary.artist">
+            <field name="name">nanku</field>
+            <field name="date_of_birth">1991-11-01</field>
+            <field name="specility">Painting </field>
+        </record>
+    </data>
+</odoo>

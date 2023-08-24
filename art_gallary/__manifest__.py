@@ -10,6 +10,11 @@
             'view/art_gallary_interaction_view.xml',
             'view/art_gallary_menus.xml',
             
+    ],
+    'demo':[
+        'demo/artwork_demo.xml',
+        'demo/artist_demo.xml',
+        
     ]
 
 }

@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record id="artwork1" model="artgallary.artwork">
+            <field name="name">Chaman</field>
+            <field name="description">Good woodern art</field>
+            <field name="price">12000.00</field>
+            <field name="state">available</field>
+            <field name="image" type="base64" file="art_gallary/images/1.jpeg"></field>
+        </record>
+
+    </data>
+</odoo>
