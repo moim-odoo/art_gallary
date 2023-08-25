@@ -14,6 +14,8 @@
     'demo':[
         'demo/artwork_demo.xml',
         'demo/artist_demo.xml',
+        'demo/users_demo.xml',
+        'demo/interaction_demo.xml',
         
     ]
 

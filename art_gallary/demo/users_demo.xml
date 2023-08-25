@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+        <record id="user_demo1" model="artgallary.user">
+            <field name="name">Rajan</field>
+            <field name="email">rajan@gmail.com</field>
+            <field name="password">raj@123</field>
+            <field name="address">132 rajnandan nagar mp</field>
+            <field name="birth_date">2001-03-12</field>
+        </record>
+
+        <record id="user_demo2" model="artgallary.user">
+            <field name="name">Rajni</field>
+            <field name="email">rajani@gmail.com</field>
+            <field name="password">rajni@123</field>
+            <field name="address">172 ahmed nagar mp</field>
+            <field name="birth_date">1994-09-02</field>
+        </record>
+
+        <record id="user_demo3" model="artgallary.user">
+            <field name="name">karan</field>
+            <field name="email">karan@gmail.com</field>
+            <field name="password">karan@123</field>
+            <field name="address">1345 rkundan nagar mp</field>
+            <field name="birth_date">1997-07-07</field>
+        </record>
+
+        <record id="user_demo4" model="artgallary.user">
+            <field name="name">jack</field>
+            <field name="email">jack@gmail.com</field>
+            <field name="password">jack@123</field>
+            <field name="address">132 santmarino</field>
+            <field name="birth_date">1998-01-12</field>
+        </record>
+    </data>
+</odoo>

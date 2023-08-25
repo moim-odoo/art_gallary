@@ -1,11 +1,35 @@
 <odoo>
     <data>
         <record id="artwork1" model="artgallary.artwork">
-            <field name="name">Chaman</field>
+            <field name="name">Xcontrass</field>
             <field name="description">Good woodern art</field>
             <field name="price">12000.00</field>
             <field name="state">available</field>
             <field name="image" type="base64" file="art_gallary/images/1.jpeg"></field>
+        </record>
+
+        <record id="artwork2" model="artgallary.artwork">
+            <field name="name">Wooden dear</field>
+            <field name="description">Great woodern art</field>
+            <field name="price">22000.00</field>
+            <field name="state">available</field>
+            <field name="image" type="base64" file="art_gallary/images/2.jpeg"></field>
+        </record>
+
+        <record id="artwork3" model="artgallary.artwork">
+            <field name="name">Lightning Night</field>
+            <field name="description">Good nature painting</field>
+            <field name="price">18000.00</field>
+            <field name="state">sold</field>
+            <field name="image" type="base64" file="art_gallary/images/3.jpeg"></field>
+        </record>
+
+        <record id="artwork4" model="artgallary.artwork">
+            <field name="name">Paper Bird</field>
+            <field name="description">Best Peper work</field>
+            <field name="price">9000.00</field>
+            <field name="state">available</field>
+            <field name="image" type="base64" file="art_gallary/images/4.jpeg"></field>
         </record>
 
     </data>

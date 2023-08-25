@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record id="interaction_demo1" model="artgallary.interaction">
+            <field name="user_id" ref="art_gallary.user_demo2"></field>
+            <field name="artwork_id" ref="art_gallary.artwork3"></field>
+            <field name="comment">Best Painting</field>
+            <field name="rating">best</field>
+        </record>
+
+        <record id="interaction_demo2" model="artgallary.interaction">
+            <field name="user_id" ref="art_gallary.user_demo4"></field>
+            <field name="artwork_id" ref="art_gallary.artwork2"></field>
+            <field name="comment">Best wooden art i ever see in my entire life</field>
+            <field name="rating">excellent</field>
+        </record>
+
+        <record id="interaction_demo3" model="artgallary.interaction">
+            <field name="user_id" ref="art_gallary.user_demo1"></field>
+            <field name="artwork_id" ref="art_gallary.artwork4"></field>
+            <field name="comment">perfect paper work art</field>
+            <field name="rating">good</field>
+        </record>
+
+        <record id="interaction_demo4" model="artgallary.interaction">
+            <field name="user_id" ref="art_gallary.user_demo3"></field>
+            <field name="artwork_id" ref="art_gallary.artwork1"></field>
+            <field name="comment">not really good </field>
+            <field name="rating">average</field>
+        </record>
+
+
+    </data>
+</odoo>
